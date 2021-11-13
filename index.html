@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber uygulaması</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="stylesheet" href="./skleton/skeleton.css">
+    <link rel="stylesheet" href="./skleton/normalize.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>rehber uygulaması</h1>
+           
+        
+                 <form id="form-rehber">
+                    <div>
+                        <label for="ad">Adı</label>
+                        <input type="text" id="ad" class="u-full-width">
+                    </div>
+                    <div>
+                        <label for="soyad">Soyad</label>
+                        <input type="text" id="soyad" class="u-full-width">
+                    </div>
+                    <div>
+                        <label for="mail">Mail</label>
+                        <input type="text" id="mail" class="u-full-width">
+                    </div>
+                  
+                    <div>
+                        <input class="button-primary u-full-width" type="submit" value="kaydet">
+                    </div>
+
+                 </form>
+
+
+                 <hr>
+                 <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>AD</th>
+                                <th>SOYAD</th>
+                                <th>EMAİL</th>
+                                <th>İŞLEM</th>
+                            </tr>
+                        </thead>
+                        <tbody class="kisi-listesi">
+                         
+
+                        </tbody>
+                 </table>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
